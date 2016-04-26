@@ -632,3 +632,16 @@ input.ng-valid.ng-touched {
   color: red;
   padding-bottom: 10px;
 }
+
+
+li input {
+    display: none;
+}
+
+li.edit span {
+    display: none;
+}
+
+li.edit input {
+    display: initial;
+}
